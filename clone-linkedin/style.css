@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul li{
+  list-style: none;
+}
+.nav-flex{
+  display: inline;
+}
+.profile-img{
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+.profile-img img{
+  margin-top: -3.5rem;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+.list-group-item-hover:hover{
+  background-color: cadetblue;
+  cursor: pointer;
+}
+.car-body ul li{
+  padding-bottom: 0.5rem;
+}
+.car-body ul li a{
+  text-decoration: none;
+}
+.dfk:hover{
+  background-color: #e0e0e0;
+  color: black;
+}
+.pst-btn:hover{
+  background-color: #e0e0e0;
+}
